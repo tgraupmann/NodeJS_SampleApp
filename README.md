@@ -59,13 +59,17 @@ npm install nodemon -g
 
 ### Python
 
-* Install [Python 3.X](https://www.python.org/downloads/) for the C++ interface
+* Install [Python 2.7](https://www.python.org/downloads/) for the C++ interface
 
 * Set the `PYTHON` environment variable to the Python install path.
 
 ```
-%USERPROFILE%\AppData\Local\Programs\Python\Python38-32\python.exe
+C:\Python27\python.exe
 ```
+
+### VS 2017
+
+* Visual Studio 2017 is needed in order to build [ffi](https://github.com/node-ffi/node-ffi)
 
 ## Launch
 

@@ -55,7 +55,7 @@ readline.emitKeypressEvents(process.stdin);
 process.stdin.setRawMode(true);
 
 process.stdin.on('keypress', (str, key) => {
-  console.log(key)
+  //console.log(key)
   if (key.code == '[A') {
     if (selection > 0) {
       --selection;

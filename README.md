@@ -57,6 +57,16 @@ Nodemon is useful to auto relaunch after changes to the script.
 npm install nodemon -g
 ```
 
+### Python
+
+* Install [Python 3.X](https://www.python.org/downloads/) for the C++ interface
+
+* Set the `PYTHON` environment variable to the Python install path.
+
+```
+%USERPROFILE%\AppData\Local\Programs\Python\Python38-32\python.exe
+```
+
 ## Launch
 
 To launch the sample in the terminal with `node`.

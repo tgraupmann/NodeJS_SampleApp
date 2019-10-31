@@ -67,6 +67,29 @@ npm install nodemon -g
 C:\Python27\python.exe
 ```
 
+### Windows Build Tools
+
+* Close all Visual Studio Instances
+
+* [Install the Windows Build Tools](https://github.com/nodejs/node-gyp#option-1)
+
+```
+npm install --global --production windows-build-tools --vs2017
+npm config set msvs_version 2017 –global
+```
+
+* Bypass PowerShell access restrictions
+
+```
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
+```
+
+* Build `ffi`
+
+```
+node-gyp rebuild
+```
+
 ### VS 2017
 
 * Visual Studio 2017 is needed in order to build [ffi](https://github.com/node-ffi/node-ffi)
